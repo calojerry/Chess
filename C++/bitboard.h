@@ -1,9 +1,11 @@
 #ifndef BITBOARD_H
 #define BITBOARD_H
 
+#include "constants.h"
+
 class Bitboard {
 private:
-  uint64_t bitboard; // boolean representation of an 8x8 chess board
+  U64 bitboard; // boolean representation of an 8x8 chess board
 
 public: 
   Bitboard();
