@@ -14,6 +14,9 @@ public:
   void setbb(U64 bb);
   U64 getbb() const;
 
+  void setbbsquare(Square square);
+  U64 getbbsquare() const;
+
   void printbb() const;
 };
 
