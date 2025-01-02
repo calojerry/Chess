@@ -7,7 +7,9 @@
 class Chess {
 private:
   Board board;
-  bool gameOver;
+  Color currTurn = Color::WHITE;
+  bool gameOver = false;
+
 public:
   Chess();
 
