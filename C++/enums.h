@@ -1,6 +1,7 @@
 #ifndef ENUMS_H
 #define ENUMS_H
 
+// name of each square
 enum class Square {
   A1, B1, C1, D1, E1, F1, G1, H1,
   A2, B2, C2, D2, E2, F2, G2, H2,
@@ -12,6 +13,7 @@ enum class Square {
   A8, B8, C8, D8, E8, F8, G8, H8
 };
 
+// name of each file
 enum class File {
   FILE_A,
   FILE_B,
@@ -23,6 +25,7 @@ enum class File {
   FILE_H
 };
 
+// name of each rank
 enum class Rank {
   RANK_1,
   RANK_2,
@@ -34,11 +37,13 @@ enum class Rank {
   RANK_8
 };
 
+// the two colors
 enum class Color {
   WHITE,
   BLACK
 };
 
+// types of pieces
 enum class PieceType {
   PAWN,
   KNIGHT,
