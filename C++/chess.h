@@ -5,6 +5,7 @@
 #include "enums.h"
 #include "structs.h"
 #include "bitboard.h"
+#include "board.h"
 
 class Chess {
 private:
