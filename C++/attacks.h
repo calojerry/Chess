@@ -3,8 +3,10 @@
 
 class Attack {
 private:
-public:
+  Bitboard bb;
 
+public:
+  Attack();
 };
 
 #endif //ATTACKS_H
