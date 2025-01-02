@@ -3,7 +3,7 @@
 
 class Board {
 private:
-  uint64_t bitboard; // boolean represntation of the 8x8 chess board
+  uint64_t bitboard; // boolean representation of an 8x8 chess board
 
 public: 
   Board();
