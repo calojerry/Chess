@@ -1,5 +1,5 @@
 # chess.cpp
-Chess Engine in C++
+A Chess Engine in C++
 
 # About the Project
 
