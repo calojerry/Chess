@@ -3,9 +3,9 @@
 
 #include "constants.h"
 #include "enums.h"
-#include "structs.h"
 #include "bitboard.h"
 #include "board.h"
+#include "piece.h"
 
 class Chess {
 private:
