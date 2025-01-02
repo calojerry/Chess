@@ -3,7 +3,9 @@
 
 class Move {
 private:
+  Square from_pos, to_pos;
 public:
+  Move();
 
 };
 
