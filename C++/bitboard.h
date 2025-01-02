@@ -11,7 +11,10 @@ public:
   Bitboard();
 
   // helper functions
-  void printBitboard() const;
+  void setbb(U64 bb);
+  U64 getbb() const;
+
+  void printbb() const;
 };
 
 #endif //BITBOARD_H
