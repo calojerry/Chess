@@ -3,7 +3,11 @@
 
 class Piece {
 private:
+  Color color;
+  PieceType piece_type;
+
 public:
+  Piece();
 
 };
 
