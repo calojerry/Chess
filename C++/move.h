@@ -4,6 +4,8 @@
 class Move {
 private:
   Square from_pos, to_pos;
+  // other FEN stuff
+  
 public:
   Move();
 
