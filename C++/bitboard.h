@@ -13,15 +13,17 @@ public:
   /********************
   |  HELPER FUNCTIONS  |
   ********************/
-  // U64 HELPER FUNCTIONS
+  // U64 manipulation
   void setbb(U64 bb);
   U64 getbb() const;
-
-  // BIT HELPER FUNCTIONS
-  void setbit(Square square);
-  bool getbit() const;
-
+  void clearbb();
   void printbb() const;
+
+  // bit manipulation
+  void setbit(Square square);
+  bool getbit(Square square) const;
+  void clearbit(Square square);
+  bool popbit(Square square) const;
 };
 
 #endif //BITBOARD_H
