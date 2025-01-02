@@ -7,6 +7,9 @@ private:
 
 public: 
   Board();
+
+  // helper functions
+  void printBitboard() const;
 };
 
 #endif
