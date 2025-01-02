@@ -1,11 +1,9 @@
 #ifndef BOARD_H
 #define BOARD_H
 
-#include<stack>
-
 class Board {
 private:
-  string position;
+  string position; // i.e. first digit of the FEN
   
 public:
 };
