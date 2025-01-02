@@ -6,6 +6,7 @@
 #include "bitboard.h"
 #include "board.h"
 #include "piece.h"
+#include "move.h"
 
 class Chess {
 private:
@@ -15,4 +16,4 @@ public:
 
 };
 
-#endif
+#endif //CHESS_H
