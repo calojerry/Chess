@@ -9,11 +9,13 @@
 #include "move.h"
 
 #include <stack>
+#include <string>
 
 class Chess {
 private:
-  Board position;
+  Board board;
   std::stack<Move> move_history;
+  std::string current_FEN; // default should be starting position, not a null board
 
 public:
   Chess();
