@@ -1,4 +1,4 @@
-# chess.cpp
+# Chess
 A Chess Engine in C++
 
 # About the Project
