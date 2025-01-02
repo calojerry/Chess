@@ -10,12 +10,16 @@ private:
 public: 
   Bitboard();
 
-  // helper functions
+  /********************
+  |  HELPER FUNCTIONS  |
+  ********************/
+  // U64 HELPER FUNCTIONS
   void setbb(U64 bb);
   U64 getbb() const;
 
-  void setbbsquare(Square square);
-  U64 getbbsquare() const;
+  // BIT HELPER FUNCTIONS
+  void setbit(Square square);
+  bool getbit() const;
 
   void printbb() const;
 };
