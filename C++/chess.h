@@ -2,6 +2,7 @@
 #define CHESS_H
 
 #include "enums.h"
+#include "structs.h"
 #include "board.h"
 
 class Chess {
