@@ -7,8 +7,8 @@
 class Chess {
 private:
   Board board;
-  Color currTurn = Color::WHITE;
-  bool gameOver = false;
+  Color currTurn = Color::WHITE; // default: white to move
+  bool gameOver = false; // default: game is not over
 
 public:
   Chess();
