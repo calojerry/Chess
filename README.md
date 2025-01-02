@@ -1,2 +1,2 @@
 # chess.cpp
-Chess Engine in C/C
+Chess Engine in C++
