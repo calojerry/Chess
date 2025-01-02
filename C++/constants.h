@@ -7,10 +7,13 @@
 
 using U64 = std::uint64_t;
 
-const U64 notA = 18374403900871474942ULL; // not A file constant
-const U64 notH = 9187201950435737471ULL; // not H file constant
-const U64 notHG = 4557430888798830399ULL; // not HG file constant
-const U64 notAB = 18229723555195321596ULL; // not AB file constant
+const U64 LIGHT_SQUARES = 0x55AA55AA55AA55AAULL; // Light squares bitboard
+const U64 DARK_SQUARES = 0xAA55AA55AA55AA55ULL;  // Dark squares bitboard
+
+const U64 NOT_A = 18374403900871474942ULL;   // Not A file bitboard
+const U64 NOT_H = 9187201950435737471ULL;   // Not H file bitboard
+const U64 NOT_HG = 4557430888798830399ULL;  // Not HG file bitboard
+const U64 NOT_AB = 18229723555195321596ULL; // Not AB file bitboard
 
 // unicode symbols for pieces
 const std::unordered_map<char, std::string> UNICODE_PIECE_SYMBOLS = {
