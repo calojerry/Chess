@@ -12,4 +12,4 @@ public:
   void printBitboard() const;
 };
 
-#endif
+#endif //BITBOARD_H
