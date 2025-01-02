@@ -53,4 +53,4 @@ enum class PieceType {
   KING,
 };
 
-#endif
+#endif //ENUMS_H
