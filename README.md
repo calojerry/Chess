@@ -8,12 +8,4 @@ A Chess Engine in C++
 
 ## Installation
 
-# Project Roadmap
-- Planning
-- Requirements Analysis
-- Design
-- Implementation
-- Testing
-- Deployment
-
 # FAQ
