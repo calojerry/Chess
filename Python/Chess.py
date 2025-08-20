@@ -1,3 +1,4 @@
+# run: `%pip install python-chess`
 import chess
 
 # ASCII title and instructions
