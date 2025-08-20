@@ -1,5 +1,5 @@
 # Chess
-A Chess Engine in C++
+Chess in C++ and Python
 
 # About the Project
 
