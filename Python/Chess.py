@@ -1,4 +1,4 @@
-# run: `%pip install python-chess`
+# run: `%pip install python-chess` before running next line
 import chess
 
 # ASCII title and instructions
