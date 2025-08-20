@@ -9,7 +9,7 @@ TITLE = r"""
  \____|_| |_|_____|____/____/ 
 """
 
-INSTRUCTIONS = "Enter moves in UCI format, e.g., e2e4 or END to quit\n"
+INSTRUCTIONS = "Enter moves in UCI format (e.g., e2e4) or END to quit\n"
 
 def print_board_with_axes(board, invert=False):
     """Prints the board with rank and file axes."""
