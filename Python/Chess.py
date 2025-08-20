@@ -35,6 +35,32 @@ def print_board_with_axes(board, invert=False):
 
     print("  " + files)
 
+def check_end_conditions(board):
+    """Check why the game ended and return a message if so."""
+
+    outcome = board.outcome()  # unified result object
+
+    if outcome:  
+        # game ended, check why
+        if outcome.termination == chess.Termination.CHECKMATE:
+            winner = "White" if outcome.winner else "Black"
+            return f"Checkmate — {winner} wins!"
+        elif outcome.termination == chess.Termination.STALEMATE:
+            return "Stalemate — draw."
+        elif outcome.termination == chess.Termination.INSUFFICIENT_MATERIAL:
+            return "Draw — insufficient material."
+        elif outcome.termination == chess.Termination.SEVENTYFIVE_MOVES:
+            return "Draw — 75-move rule."
+        elif outcome.termination == chess.Termination.FIVEFOLD_REPETITION:
+            return "Draw — fivefold repetition."
+        elif outcome.termination == chess.Termination.FIFTY_MOVES:
+            return "Draw — 50-move rule (claimed)."
+        elif outcome.termination == chess.Termination.THREEFOLD_REPETITION:
+            return "Draw — threefold repetition (claimed)."
+        else:
+            return f"Game ended: {outcome.termination}"
+    return None  # game not over yet
+
 def play_game():
     """Main game loop where players enter moves in UCI format."""
 
@@ -82,7 +108,13 @@ def play_game():
             print(f"An unexpected error occurred: {e}")
 
     # reached if the loop ends by game over or END command
-    print("Game over!")
+    result_msg = check_end_conditions(board)
+
+    print("\nGame over!")
+
+    if result_msg:
+        print(result_msg)
+
     print_board_with_axes(board)
 
 if __name__ == "__main__":
