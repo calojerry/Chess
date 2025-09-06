@@ -7,6 +7,7 @@ Chess in C++ and Python
 - https://www.asciiart.eu/text-to-ascii-art: ASCII Art for Chess Title
 - https://python-chess.readthedocs.io/en/latest/: Python Chess Library (inspiration for C++ program)
 - [www.chess.com](https://www.chess.com/): for giving me reference
+- https://stockfishchess.org/: Stockfish Chess AI
 
 # Getting Started
 ## Requirements
