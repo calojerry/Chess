@@ -8,6 +8,7 @@ Chess in C++ and Python
 - https://python-chess.readthedocs.io/en/latest/: Python Chess Library (inspiration for C++ program)
 - [www.chess.com](https://www.chess.com/): for giving me reference
 - https://stockfishchess.org/: Stockfish Chess AI
+- Google Gemini API: https://ai.google.dev/
 
 # Getting Started
 ## Requirements
